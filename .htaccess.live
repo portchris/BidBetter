@@ -1,5 +1,404 @@
 # BEGIN iThemes Security - Do not modify or remove this line
 # iThemes Security Config Details: 2
+# Quick ban IP. Will be updated on next formal rules save.
+SetEnvIF REMOTE_ADDR "^176\.123\.2\.61$" DenyAccess
+SetEnvIF X-FORWARDED-FOR "^176\.123\.2\.61$" DenyAccess
+SetEnvIF X-CLUSTER-CLIENT-IP "^176\.123\.2\.61$" DenyAccess
+<IfModule mod_authz_core.c>
+	<RequireAll>
+		Require all granted
+		Require not env DenyAccess
+		Require not ip 176.123.2.61
+	</RequireAll>
+</IfModule>
+<IfModule !mod_authz_core.c>
+	Order allow,deny
+	Deny from env=DenyAccess
+	Deny from 176.123.2.61
+	Allow from all
+</IfModule>
+# END iThemes Security - Do not modify or remove this line
+
+# BEGIN iThemes Security - Do not modify or remove this line
+# iThemes Security Config Details: 2
+# Quick ban IP. Will be updated on next formal rules save.
+SetEnvIF REMOTE_ADDR "^176\.123\.6\.186$" DenyAccess
+SetEnvIF X-FORWARDED-FOR "^176\.123\.6\.186$" DenyAccess
+SetEnvIF X-CLUSTER-CLIENT-IP "^176\.123\.6\.186$" DenyAccess
+<IfModule mod_authz_core.c>
+	<RequireAll>
+		Require all granted
+		Require not env DenyAccess
+		Require not ip 176.123.6.186
+	</RequireAll>
+</IfModule>
+<IfModule !mod_authz_core.c>
+	Order allow,deny
+	Deny from env=DenyAccess
+	Deny from 176.123.6.186
+	Allow from all
+</IfModule>
+# END iThemes Security - Do not modify or remove this line
+
+# BEGIN iThemes Security - Do not modify or remove this line
+# iThemes Security Config Details: 2
+# Quick ban IP. Will be updated on next formal rules save.
+SetEnvIF REMOTE_ADDR "^176\.123\.18\.113$" DenyAccess
+SetEnvIF X-FORWARDED-FOR "^176\.123\.18\.113$" DenyAccess
+SetEnvIF X-CLUSTER-CLIENT-IP "^176\.123\.18\.113$" DenyAccess
+<IfModule mod_authz_core.c>
+	<RequireAll>
+		Require all granted
+		Require not env DenyAccess
+		Require not ip 176.123.18.113
+	</RequireAll>
+</IfModule>
+<IfModule !mod_authz_core.c>
+	Order allow,deny
+	Deny from env=DenyAccess
+	Deny from 176.123.18.113
+	Allow from all
+</IfModule>
+# END iThemes Security - Do not modify or remove this line
+
+# BEGIN iThemes Security - Do not modify or remove this line
+# iThemes Security Config Details: 2
+# Quick ban IP. Will be updated on next formal rules save.
+SetEnvIF REMOTE_ADDR "^62\.149\.143\.94$" DenyAccess
+SetEnvIF X-FORWARDED-FOR "^62\.149\.143\.94$" DenyAccess
+SetEnvIF X-CLUSTER-CLIENT-IP "^62\.149\.143\.94$" DenyAccess
+<IfModule mod_authz_core.c>
+	<RequireAll>
+		Require all granted
+		Require not env DenyAccess
+		Require not ip 62.149.143.94
+	</RequireAll>
+</IfModule>
+<IfModule !mod_authz_core.c>
+	Order allow,deny
+	Deny from env=DenyAccess
+	Deny from 62.149.143.94
+	Allow from all
+</IfModule>
+# END iThemes Security - Do not modify or remove this line
+
+# BEGIN iThemes Security - Do not modify or remove this line
+# iThemes Security Config Details: 2
+# Quick ban IP. Will be updated on next formal rules save.
+SetEnvIF REMOTE_ADDR "^167\.114\.1\.152$" DenyAccess
+SetEnvIF X-FORWARDED-FOR "^167\.114\.1\.152$" DenyAccess
+SetEnvIF X-CLUSTER-CLIENT-IP "^167\.114\.1\.152$" DenyAccess
+<IfModule mod_authz_core.c>
+	<RequireAll>
+		Require all granted
+		Require not env DenyAccess
+		Require not ip 167.114.1.152
+	</RequireAll>
+</IfModule>
+<IfModule !mod_authz_core.c>
+	Order allow,deny
+	Deny from env=DenyAccess
+	Deny from 167.114.1.152
+	Allow from all
+</IfModule>
+# END iThemes Security - Do not modify or remove this line
+
+# BEGIN iThemes Security - Do not modify or remove this line
+# iThemes Security Config Details: 2
+# Quick ban IP. Will be updated on next formal rules save.
+SetEnvIF REMOTE_ADDR "^182\.50\.130\.136$" DenyAccess
+SetEnvIF X-FORWARDED-FOR "^182\.50\.130\.136$" DenyAccess
+SetEnvIF X-CLUSTER-CLIENT-IP "^182\.50\.130\.136$" DenyAccess
+<IfModule mod_authz_core.c>
+	<RequireAll>
+		Require all granted
+		Require not env DenyAccess
+		Require not ip 182.50.130.136
+	</RequireAll>
+</IfModule>
+<IfModule !mod_authz_core.c>
+	Order allow,deny
+	Deny from env=DenyAccess
+	Deny from 182.50.130.136
+	Allow from all
+</IfModule>
+# END iThemes Security - Do not modify or remove this line
+
+# BEGIN iThemes Security - Do not modify or remove this line
+# iThemes Security Config Details: 2
+# Quick ban IP. Will be updated on next formal rules save.
+SetEnvIF REMOTE_ADDR "^23\.91\.70\.74$" DenyAccess
+SetEnvIF X-FORWARDED-FOR "^23\.91\.70\.74$" DenyAccess
+SetEnvIF X-CLUSTER-CLIENT-IP "^23\.91\.70\.74$" DenyAccess
+<IfModule mod_authz_core.c>
+	<RequireAll>
+		Require all granted
+		Require not env DenyAccess
+		Require not ip 23.91.70.74
+	</RequireAll>
+</IfModule>
+<IfModule !mod_authz_core.c>
+	Order allow,deny
+	Deny from env=DenyAccess
+	Deny from 23.91.70.74
+	Allow from all
+</IfModule>
+# END iThemes Security - Do not modify or remove this line
+
+# BEGIN iThemes Security - Do not modify or remove this line
+# iThemes Security Config Details: 2
+# Quick ban IP. Will be updated on next formal rules save.
+SetEnvIF REMOTE_ADDR "^166\.62\.121\.86$" DenyAccess
+SetEnvIF X-FORWARDED-FOR "^166\.62\.121\.86$" DenyAccess
+SetEnvIF X-CLUSTER-CLIENT-IP "^166\.62\.121\.86$" DenyAccess
+<IfModule mod_authz_core.c>
+	<RequireAll>
+		Require all granted
+		Require not env DenyAccess
+		Require not ip 166.62.121.86
+	</RequireAll>
+</IfModule>
+<IfModule !mod_authz_core.c>
+	Order allow,deny
+	Deny from env=DenyAccess
+	Deny from 166.62.121.86
+	Allow from all
+</IfModule>
+# END iThemes Security - Do not modify or remove this line
+
+# BEGIN iThemes Security - Do not modify or remove this line
+# iThemes Security Config Details: 2
+# Quick ban IP. Will be updated on next formal rules save.
+SetEnvIF REMOTE_ADDR "^50\.62\.177\.85$" DenyAccess
+SetEnvIF X-FORWARDED-FOR "^50\.62\.177\.85$" DenyAccess
+SetEnvIF X-CLUSTER-CLIENT-IP "^50\.62\.177\.85$" DenyAccess
+<IfModule mod_authz_core.c>
+	<RequireAll>
+		Require all granted
+		Require not env DenyAccess
+		Require not ip 50.62.177.85
+	</RequireAll>
+</IfModule>
+<IfModule !mod_authz_core.c>
+	Order allow,deny
+	Deny from env=DenyAccess
+	Deny from 50.62.177.85
+	Allow from all
+</IfModule>
+# END iThemes Security - Do not modify or remove this line
+
+# BEGIN iThemes Security - Do not modify or remove this line
+# iThemes Security Config Details: 2
+# Quick ban IP. Will be updated on next formal rules save.
+SetEnvIF REMOTE_ADDR "^5\.133\.180\.199$" DenyAccess
+SetEnvIF X-FORWARDED-FOR "^5\.133\.180\.199$" DenyAccess
+SetEnvIF X-CLUSTER-CLIENT-IP "^5\.133\.180\.199$" DenyAccess
+<IfModule mod_authz_core.c>
+	<RequireAll>
+		Require all granted
+		Require not env DenyAccess
+		Require not ip 5.133.180.199
+	</RequireAll>
+</IfModule>
+<IfModule !mod_authz_core.c>
+	Order allow,deny
+	Deny from env=DenyAccess
+	Deny from 5.133.180.199
+	Allow from all
+</IfModule>
+# END iThemes Security - Do not modify or remove this line
+
+# BEGIN iThemes Security - Do not modify or remove this line
+# iThemes Security Config Details: 2
+# Quick ban IP. Will be updated on next formal rules save.
+SetEnvIF REMOTE_ADDR "^50\.62\.176\.36$" DenyAccess
+SetEnvIF X-FORWARDED-FOR "^50\.62\.176\.36$" DenyAccess
+SetEnvIF X-CLUSTER-CLIENT-IP "^50\.62\.176\.36$" DenyAccess
+<IfModule mod_authz_core.c>
+	<RequireAll>
+		Require all granted
+		Require not env DenyAccess
+		Require not ip 50.62.176.36
+	</RequireAll>
+</IfModule>
+<IfModule !mod_authz_core.c>
+	Order allow,deny
+	Deny from env=DenyAccess
+	Deny from 50.62.176.36
+	Allow from all
+</IfModule>
+# END iThemes Security - Do not modify or remove this line
+
+# BEGIN iThemes Security - Do not modify or remove this line
+# iThemes Security Config Details: 2
+# Quick ban IP. Will be updated on next formal rules save.
+SetEnvIF REMOTE_ADDR "^185\.109\.144\.236$" DenyAccess
+SetEnvIF X-FORWARDED-FOR "^185\.109\.144\.236$" DenyAccess
+SetEnvIF X-CLUSTER-CLIENT-IP "^185\.109\.144\.236$" DenyAccess
+<IfModule mod_authz_core.c>
+	<RequireAll>
+		Require all granted
+		Require not env DenyAccess
+		Require not ip 185.109.144.236
+	</RequireAll>
+</IfModule>
+<IfModule !mod_authz_core.c>
+	Order allow,deny
+	Deny from env=DenyAccess
+	Deny from 185.109.144.236
+	Allow from all
+</IfModule>
+# END iThemes Security - Do not modify or remove this line
+
+# BEGIN iThemes Security - Do not modify or remove this line
+# iThemes Security Config Details: 2
+# Quick ban IP. Will be updated on next formal rules save.
+SetEnvIF REMOTE_ADDR "^62\.149\.143\.91$" DenyAccess
+SetEnvIF X-FORWARDED-FOR "^62\.149\.143\.91$" DenyAccess
+SetEnvIF X-CLUSTER-CLIENT-IP "^62\.149\.143\.91$" DenyAccess
+<IfModule mod_authz_core.c>
+	<RequireAll>
+		Require all granted
+		Require not env DenyAccess
+		Require not ip 62.149.143.91
+	</RequireAll>
+</IfModule>
+<IfModule !mod_authz_core.c>
+	Order allow,deny
+	Deny from env=DenyAccess
+	Deny from 62.149.143.91
+	Allow from all
+</IfModule>
+# END iThemes Security - Do not modify or remove this line
+
+# BEGIN iThemes Security - Do not modify or remove this line
+# iThemes Security Config Details: 2
+# Quick ban IP. Will be updated on next formal rules save.
+SetEnvIF REMOTE_ADDR "^154\.16\.166\.28$" DenyAccess
+SetEnvIF X-FORWARDED-FOR "^154\.16\.166\.28$" DenyAccess
+SetEnvIF X-CLUSTER-CLIENT-IP "^154\.16\.166\.28$" DenyAccess
+<IfModule mod_authz_core.c>
+	<RequireAll>
+		Require all granted
+		Require not env DenyAccess
+		Require not ip 154.16.166.28
+	</RequireAll>
+</IfModule>
+<IfModule !mod_authz_core.c>
+	Order allow,deny
+	Deny from env=DenyAccess
+	Deny from 154.16.166.28
+	Allow from all
+</IfModule>
+# END iThemes Security - Do not modify or remove this line
+
+# BEGIN iThemes Security - Do not modify or remove this line
+# iThemes Security Config Details: 2
+# Quick ban IP. Will be updated on next formal rules save.
+SetEnvIF REMOTE_ADDR "^146\.185\.239\.11$" DenyAccess
+SetEnvIF X-FORWARDED-FOR "^146\.185\.239\.11$" DenyAccess
+SetEnvIF X-CLUSTER-CLIENT-IP "^146\.185\.239\.11$" DenyAccess
+<IfModule mod_authz_core.c>
+	<RequireAll>
+		Require all granted
+		Require not env DenyAccess
+		Require not ip 146.185.239.11
+	</RequireAll>
+</IfModule>
+<IfModule !mod_authz_core.c>
+	Order allow,deny
+	Deny from env=DenyAccess
+	Deny from 146.185.239.11
+	Allow from all
+</IfModule>
+# END iThemes Security - Do not modify or remove this line
+
+# BEGIN iThemes Security - Do not modify or remove this line
+# iThemes Security Config Details: 2
+# Quick ban IP. Will be updated on next formal rules save.
+SetEnvIF REMOTE_ADDR "^46\.161\.9\.8$" DenyAccess
+SetEnvIF X-FORWARDED-FOR "^46\.161\.9\.8$" DenyAccess
+SetEnvIF X-CLUSTER-CLIENT-IP "^46\.161\.9\.8$" DenyAccess
+<IfModule mod_authz_core.c>
+	<RequireAll>
+		Require all granted
+		Require not env DenyAccess
+		Require not ip 46.161.9.8
+	</RequireAll>
+</IfModule>
+<IfModule !mod_authz_core.c>
+	Order allow,deny
+	Deny from env=DenyAccess
+	Deny from 46.161.9.8
+	Allow from all
+</IfModule>
+# END iThemes Security - Do not modify or remove this line
+
+# BEGIN iThemes Security - Do not modify or remove this line
+# iThemes Security Config Details: 2
+# Quick ban IP. Will be updated on next formal rules save.
+SetEnvIF REMOTE_ADDR "^46\.161\.9\.17$" DenyAccess
+SetEnvIF X-FORWARDED-FOR "^46\.161\.9\.17$" DenyAccess
+SetEnvIF X-CLUSTER-CLIENT-IP "^46\.161\.9\.17$" DenyAccess
+<IfModule mod_authz_core.c>
+	<RequireAll>
+		Require all granted
+		Require not env DenyAccess
+		Require not ip 46.161.9.17
+	</RequireAll>
+</IfModule>
+<IfModule !mod_authz_core.c>
+	Order allow,deny
+	Deny from env=DenyAccess
+	Deny from 46.161.9.17
+	Allow from all
+</IfModule>
+# END iThemes Security - Do not modify or remove this line
+
+# BEGIN iThemes Security - Do not modify or remove this line
+# iThemes Security Config Details: 2
+# Quick ban IP. Will be updated on next formal rules save.
+SetEnvIF REMOTE_ADDR "^46\.148\.18\.162$" DenyAccess
+SetEnvIF X-FORWARDED-FOR "^46\.148\.18\.162$" DenyAccess
+SetEnvIF X-CLUSTER-CLIENT-IP "^46\.148\.18\.162$" DenyAccess
+<IfModule mod_authz_core.c>
+	<RequireAll>
+		Require all granted
+		Require not env DenyAccess
+		Require not ip 46.148.18.162
+	</RequireAll>
+</IfModule>
+<IfModule !mod_authz_core.c>
+	Order allow,deny
+	Deny from env=DenyAccess
+	Deny from 46.148.18.162
+	Allow from all
+</IfModule>
+# END iThemes Security - Do not modify or remove this line
+
+# BEGIN iThemes Security - Do not modify or remove this line
+# iThemes Security Config Details: 2
+# Quick ban IP. Will be updated on next formal rules save.
+SetEnvIF REMOTE_ADDR "^46\.148\.22\.18$" DenyAccess
+SetEnvIF X-FORWARDED-FOR "^46\.148\.22\.18$" DenyAccess
+SetEnvIF X-CLUSTER-CLIENT-IP "^46\.148\.22\.18$" DenyAccess
+<IfModule mod_authz_core.c>
+	<RequireAll>
+		Require all granted
+		Require not env DenyAccess
+		Require not ip 46.148.22.18
+	</RequireAll>
+</IfModule>
+<IfModule !mod_authz_core.c>
+	Order allow,deny
+	Deny from env=DenyAccess
+	Deny from 46.148.22.18
+	Allow from all
+</IfModule>
+# END iThemes Security - Do not modify or remove this line
+
+# BEGIN iThemes Security - Do not modify or remove this line
+# iThemes Security Config Details: 2
 	# Enable HackRepair.com's blacklist feature - Security > Settings > Banned Users > Default Blacklist
 	# Start HackRepair.com Blacklist
 	RewriteEngine on
